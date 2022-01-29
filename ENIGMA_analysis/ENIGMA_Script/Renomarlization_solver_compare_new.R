@@ -245,8 +245,8 @@ library(Seurat)
 library(SingleCellExperiment)
 library(scater)
 			   
-###load DEG example data
-load("/path/to/DEG_example_data/DEG_test_data_4.8")
+###load DEG example data, datasets could be downloaded from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/DEG_example_data
+load("/path/to/DEG_example_data/DEG_example_data.Rdata")
 Frac <- get_proportion(Bulk, Reference)
 y <- gl(2, 100/2)
 			   
@@ -568,6 +568,7 @@ p
 dev.off()
 #######################################
 ##################
+# Datasets could be downloaded from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/cts_DEG
 res <- NULL
 ES <- c(1.8,2.4,3,3.6,4.2,4.8)
 for(es in 1:length(ES)){
@@ -683,7 +684,7 @@ p_boxplot
 dev.off()
 
 ###########################################################################
-###compare the latent state identification
+###compare the latent state identification, datasets could be downloaded from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CellStateIdentification
 Bulk <- readRDS("/Path/to/save/Data/Bulk.rds")
 Reference <- readRDS("/Path/to/save/Data/Reference.rds")
 cellLabel <- readRDS("/Path/to/save/Data/CellLabel.rds")
@@ -929,6 +930,7 @@ derive_P2 <- function(X, theta, P_old,R,alpha){
     return(dP)
 }
 
+## datasets could be downloaded from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CSE_correlation			   
 load("HNSCC_simulate_benchmark.Rdata")
 
 Frac <- get_proportion(bulkSet_HNSCC, profile_hnscc)							
