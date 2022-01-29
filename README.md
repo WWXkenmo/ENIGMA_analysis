@@ -1,4 +1,6 @@
 ### ENIGMA analysis
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5906932.svg)](https://doi.org/10.5281/zenodo.5906932)
+
 To reproduce main parts of the simulations and analysis results in our manuscript, here we give several example code for data simulation and analysis.
 tips:
 1. Before users run following example, user need to source the ENIGMA code at first
