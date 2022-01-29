@@ -8,6 +8,7 @@ library(MASS)
 library(scater)
 library(SingleCellExperiment)
 ###calculate cell type fractions matrix
+#### Datasets could be downloaded through the link https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CellStateIdentification
 Bulk <- readRDS("/Path/to/Data/Bulk.rds")
 Reference <- readRDS("/Path/to/Data/Reference.rds")
 CellLabel <- readRDS("/Path/to/Data/CellLabel.rds")
@@ -215,8 +216,8 @@ pp
 dev.off()
 
 #############################################################################
-
-load("/Path/to/Data/DEG_test_data_4.8")
+##Datasets could be downloaded through the link https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/DEG_example_data
+load("/Path/to/Data/DEG_example_data.Rdata")
 source("/Path/to/Data/DEG_analysis_uile_function.R")
 Frac <- get_proportion(Bulk, Reference)
 y <- gl(2, 100/2)
