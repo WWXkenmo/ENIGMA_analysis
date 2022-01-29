@@ -134,6 +134,7 @@ colnames(ref) = colnames(idCell)
 ########################################################################################
 #Evaluation
 ##calculate cell fraction matrix
+# Our generated data could be downloaed from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CellStateIdentification/Traj
 Frac <- get_proportion(PseudoBulk, ref)
 
 ##Running TCA
