@@ -1,3 +1,4 @@
+## Datasets could be downloaded from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CellStateIdentification 
 source("/path/to/Data/ENIGMA.R")
 Bulk <- readRDS("/path/to/Data/Bulk.rds")
 Reference <- readRDS("/path/to/Data/Reference.rds")
@@ -402,8 +403,8 @@ dev.off()
 
 
 #########################################################
-##Benchmark CTS-DEG detection
-load("DEG_test_data_4.8")
+##Benchmark CTS-DEG detection, datasets could be downloaded from https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data
+load("DEG_example_data.Rdata")
 source("DEG_analysis_uile_function.R")
 
 #####refixed the negative values of inputted simulated gene expression matrix into positive
