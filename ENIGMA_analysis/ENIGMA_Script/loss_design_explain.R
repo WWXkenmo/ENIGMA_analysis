@@ -1,8 +1,9 @@
 ########################################################
 #explain why rank norm regularization should plugging in the average cell type proportion
-Bulk <- readRDS("/mnt/data1/weixu/HiDe/revised/Model_Compare/CellStateIdentification3/Bulk.rds")
-Reference <- readRDS("/mnt/data1/weixu/HiDe/revised/Model_Compare/CellStateIdentification3/Reference.rds")
-cellLabel <- readRDS("/mnt/data1/weixu/HiDe/revised/Model_Compare/CellStateIdentification3/CellLabel.rds")
+#The datasets could be downloaded under the folder https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CellStateIdentification/unbalance
+Bulk <- readRDS(".unbalance/Bulk.rds")
+Reference <- readRDS(".unbalance/Reference.rds")
+cellLabel <- readRDS(".unbalance/CellLabel.rds")
 Frac <- get_proportion(Bulk, Reference)
 
 ############################################################
