@@ -49,8 +49,3 @@ Both scripts could be downloaded through following links:
   Note: we also write a [document](https://github.com/WWXkenmo/ENIGMA/blob/master/vignettes/Why-fixed-renormalized-gradient-norm-size-%3D-200.pdf) to introduce why we use 200 as the new gradient norm size of renormalized gradient.
   
 #### 6. [The role of theta_hat factor in trace norm model](https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/ENIGMA_Script/loss_design_explain.R) (Supplementary Figure N5)
-
-#####  DataSets: 
-1. [Datasets for DEG analysis](https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/DEG_example_data)
-2. [Datasets for cell state identification](https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CellStateIdentification)
-3. [Datasets for sample/gene-level correlation analysis](https://github.com/WWXkenmo/ENIGMA_analysis/tree/main/ENIGMA_analysis/Data/CSE_correlation)
