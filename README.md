@@ -22,7 +22,8 @@ To use ENIGMA as package on your datasets, download package through
 ```
 devtools::install_github("WWXKenmo/ENIGMA")
 ```
-
+Then following the below tutorial
+[Using ENIGMA to estimate CSE in brain tissue](https://htmlpreview.github.io/?https://github.com/WWXkenmo/ENIGMA/blob/master/vignettes/brain_tutorial.html)
 
 ## Code for main text
 ### Simulation analysis
