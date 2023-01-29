@@ -579,9 +579,9 @@ sub_loss <- function(X, P_old, theta, alpha,miu,R){
     res <- list()
     val <- part1+part2+miu*part3
     res$val <- val
-    res$part1 <- part1
-    res$part2 <- part2/alpha
-    res$part3 <- part3
+    res$part1 <- part1*(alpha/2)
+    res$part2 <- part2*((1-alpha)/2)
+    res$part3 <- part3*(miu/2)
     res
 }
 
